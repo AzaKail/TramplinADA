@@ -73,12 +73,12 @@
                                │ HTTPS / HTTP
 ┌──────────────────────────────▼──────────────────────────────────┐
 │                     Nginx (reverse proxy)                       │
-│            /api/* → backend:8000   /* → static SPA             │
+│            /api/* → backend:8000   /* → static SPA              │
 └──────────┬──────────────────────────┬───────────────────────────┘
            │                          │
 ┌──────────▼──────────┐    ┌──────────▼──────────────────────────┐
-│   FastAPI Backend   │    │       Frontend Static (dist/)        │
-│  Python 3.11        │    │   HTML + JS + CSS bundle             │
+│   FastAPI Backend   │    │       Frontend Static (dist/)       │
+│  Python 3.11        │    │   HTML + JS + CSS bundle            │
 │  ├─ Routers         │    └─────────────────────────────────────┘
 │  ├─ Services        │
 │  ├─ Models          │    External services:
