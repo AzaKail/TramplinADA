@@ -1,5 +1,21 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.sqlite3
+*.log
+.venv/
+venv/
 .env
+
+# Django static/media build
+staticfiles/
+media/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# IDE
+.vscode/
+.idea/
 .DS_Store
